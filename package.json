@@ -1,0 +1,15 @@
+{
+  "name": "blog-backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "koa": "2.13.4",
+    "koa-router": "10.1.1",
+    "nodemon": "2.0.14"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "start dev": "nodemon –watch src/index.js"
+  }
+}
