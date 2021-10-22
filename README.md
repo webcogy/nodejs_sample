@@ -1,9 +1,8 @@
 # nodejs
 
-참고 : https://thebook.io/080203/ch21/
+가이드 : https://thebook.io/080203/ch21/
 
 ```
-
 - POST /posts
 > 포스트 작성
 
@@ -31,10 +30,14 @@
 
 ## mongoDB
 
-window버전 설치
+#### mongoDB Compass window버전 설치
 
 - 설치주소 : https://www.mongodb.com/try/download/community
 - 가이드 : https://thebook.io/080203/ch22/02-01/
+- 설치가이드 : https://ckddn9496.tistory.com/98
+- mongoDB명령어 : https://freekim.tistory.com/13
+
+### mongoose 설치
 
 ```
 yarn add mongoose dotenv
@@ -42,3 +45,10 @@ yarn add mongoose dotenv
 
 - mongoose는 Node.js 환경에서 사용하는 MongoDB 기반 ODM(Object Data Modelling) 라이브러리
 - dotenv는 환경변수들을 파일에 넣고 사용할 수 있게 하는 개발 도구
+- mongoose Schema에서 지원하는 타입 : https://thebook.io/080203/ch22/05/01-02/
+
+#### import, export 문법 적용
+
+```
+yarn add esm
+```
