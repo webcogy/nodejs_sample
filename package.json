@@ -1,11 +1,14 @@
 {
-  "name": "blog-backend",
+  "name": "blog",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
+    "dotenv": "10.0.0",
     "koa": "2.13.4",
+    "koa-bodyparser": "4.3.0",
     "koa-router": "10.1.1",
+    "mongoose": "6.0.12",
     "nodemon": "2.0.14"
   },
   "scripts": {
